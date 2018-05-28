@@ -2,7 +2,7 @@
 
 How to reproduce?
 
-Firt - use packer to create referance AMI-Image
+First - use packer to create referance AMI-Image
 
 Correct the aws_access_key and aws_secret_key parameters in packer/web.json and terraform/terraform.tfvars
 
