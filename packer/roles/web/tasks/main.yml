@@ -27,6 +27,12 @@
       - build-essential
       - nginx
 
+- name: Add service nginx in Systemd
+  systemd:
+    name: nginx
+    enabled: yes
+    state: started
+
 - name: Check whether port 80 is available
   wait_for:
     port: 80
