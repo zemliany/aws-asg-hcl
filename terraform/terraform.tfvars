@@ -1,6 +1,6 @@
 access_key = ""
 secret_key = ""
-aws_region = "us-east-2"
-aws_it   = "t2.micro"
+aws_region = ""
+aws_it   = ""
 aws_ssh_key = ""
 aws_vpc = ""
